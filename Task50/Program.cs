@@ -37,7 +37,7 @@ void PrintArray(int[,] array)
 
 void CheckElemet(int[,] array)
 {
-    if (array.GetLength(0) < indexOfNumbers[0] || array.GetLength(1) < indexOfNumbers[1]) System.Console.WriteLine("Такого элемента нет");
+    if (array.GetLength(0) < indexOfNumbers[0] || array.GetLength(1) < indexOfNumbers[1]) System.Console.WriteLine("такого числа в массиве нет");
     else
     {
         for (int i = 0; i < array.GetLength(0); i++)
